@@ -12,6 +12,7 @@ import { DetailsComponent } from './details/details.component';
 import { CartComponent } from './cart/cart.component';
 import { LegalComponent } from './legal/legal.component';
 import { FormsModule } from '@angular/forms';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     DetailsComponent,
     CartComponent,
-    LegalComponent
+    LegalComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

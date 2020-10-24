@@ -3,11 +3,8 @@
 <div class="cart-item text-light" *ngFor="let item of items">
     <span class="display-4 text-light">{{ item.name }} </span>
     <span class="display-4 text-light">{{ item.price| currency: 'EUR'}}</span>
-    <br>
-
 </div>
-<span class="display-4 text-light">{{total| currency: 'EUR'}}</span>
-<button (click)="[total]"> Done shopping>>>show me the Total </button>
+
 <form>
     <div class="form-row">
         <div class="col-md-6 mb-3 text-light">

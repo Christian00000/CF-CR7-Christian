@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
 import { CartComponent } from './cart/cart.component';
 import { LegalComponent } from './legal/legal.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 const routes: Routes = [{
   path: "" , component: HomeComponent
 },
@@ -23,6 +24,10 @@ const routes: Routes = [{
   },
   {
   path: 'legal', component: LegalComponent
+  }
+  ,
+  {
+  path: 'contact', component: ContactUsComponent
 }
 ];
 
