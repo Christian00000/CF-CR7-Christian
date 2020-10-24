@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Travel-Agency"
+    }
+  },
+  "defaultProject": "Travel-Agency",
+  "cli": {
+    "analytics": false
+  }
 }
